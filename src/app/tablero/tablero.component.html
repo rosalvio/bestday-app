@@ -1,0 +1,7 @@
+<h1>Jugando: {{this.jugador}}</h1>
+<button (click)="empezar()">Partida nueva</button>
+<h2 *ngIf="ganador">El ganador es: {{ganador}}</h2>
+
+<main>
+    <app-cuadrado *ngFor="let valor of casillas; let i = index" [value]="valor" (click)="marcar(i)"></app-cuadrado>
+</main>

@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CuadradoComponent } from './cuadrado/cuadrado.component';
+import { TableroComponent } from './tablero/tablero.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CuadradoComponent,
+    TableroComponent
   ],
   imports: [
     BrowserModule,
